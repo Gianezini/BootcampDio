@@ -1,0 +1,5 @@
+Nesse projeto lógico, temos uma estrutura de tabelas que permite o registro de informações sobre clientes, veículos, serviços prestados, ordens de serviço, itens de serviço, peças utilizadas e itens de peças. Através das chaves primárias e chaves estrangeiras, é possível estabelecer relacionamentos entre as tabelas e manter a integridade referencial.
+
+O projeto consiste em tabelas para cadastros de clientes, produtos, serviços e veículos. A partir desses cadastros, podemos cadastrar uma nova ordem de serviço, que irá utilizar os dados já cadastrados para popular a tabela, além dos dados da propria tabela.
+
+Também temos uma tabela de pagamento, que será utilizada pela tabela OS, apenas quando a OS for finalizada, indicando a forma de pagamento utilizada pelo cliente. OS em aberto não possuem pagamentos registrados.
